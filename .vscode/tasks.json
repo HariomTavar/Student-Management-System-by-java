@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Student Project",
+            "type": "shell",
+            "command": "javac -d bin src/model/*.java src/service/*.java src/main/*.java && java -cp bin main.Main"
+        }
+    ]
+}
